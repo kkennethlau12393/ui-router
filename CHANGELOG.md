@@ -1,3 +1,112 @@
+## 1.1.2 (2025-12-31)
+[Compare `@uirouter/angularjs` versions 1.1.1 and 1.1.2](https://github.com/angular-ui/ui-router/compare/1.1.1...1.1.2)
+
+
+---
+
+
+### Updated `@uirouter/core` from 6.1.1 to 6.1.2
+
+
+Changelog for `@uirouter/core`:
+
+
+[Compare `@uirouter/core` versions 6.1.1 and 6.1.2](https://github.com/ui-router/core/compare/6.1.1...6.1.2)
+
+### Bug Fixes
+
+* **urlMatcher:** Fix potential ReDoS, thanks to www.HeroDevs.com ([0db52a1](https://github.com/ui-router/core/commit/0db52a1))
+
+## 1.1.1 (2024-07-15)
+[Compare `@uirouter/angularjs` versions 1.1.0 and 1.1.1](https://github.com/angular-ui/ui-router/compare/1.1.0...1.1.1)
+
+### Features
+
+* update uirouter core ([#3859](https://github.com/angular-ui/ui-router/issues/3859)) ([275c595](https://github.com/angular-ui/ui-router/commit/275c595))
+
+
+---
+
+
+### Updated `@uirouter/core` from 6.1.0 to 6.1.1
+
+
+Changelog for `@uirouter/core`:
+
+
+[Compare `@uirouter/core` versions 6.1.0 and 6.1.1](https://github.com/ui-router/core/compare/6.1.0...6.1.1)
+
+### Bug Fixes
+
+* **stateParams:** $inherit is not affected by enumerable prototype custom methods ([#841](https://github.com/ui-router/core/issues/841)) ([9c94c2a](https://github.com/ui-router/core/commit/9c94c2a))
+
+# 1.1.0 (2023-04-16)
+[Compare `@uirouter/angularjs` versions 1.0.30 and 1.1.0](https://github.com/angular-ui/ui-router/compare/1.0.30...1.1.0)
+
+### Features
+
+* **package:** move [@uirouter](https://github.com/uirouter)/core to peerDeps as per other uirouter packages ([#3850](https://github.com/angular-ui/ui-router/issues/3850)) ([6dd057c](https://github.com/angular-ui/ui-router/commit/6dd057c))
+
+
+---
+
+
+### Updated `@uirouter/core` from 6.0.8 to 6.1.0
+
+
+Changelog for `@uirouter/core`:
+
+
+[Compare `@uirouter/core` versions 6.0.8 and 6.1.0](https://github.com/ui-router/core/compare/6.0.8...6.1.0)
+
+### Bug Fixes
+
+* **angular-compiler:** remove index.metadata.json from uirouter core, ([37b5ebe](https://github.com/ui-router/core/commit/37b5ebe))
+* **stateService:** make sure `$state.href` (and by extension `uiSref`) handle `inherit: false` ([#834](https://github.com/ui-router/core/issues/834)) ([12cd951](https://github.com/ui-router/core/commit/12cd951)), closes [/github.com/ui-router/core/pull/834#issuecomment-1379019917](https://github.com//github.com/ui-router/core/pull/834/issues/issuecomment-1379019917) [/github.com/ui-router/core/pull/834#issuecomment-1379195131](https://github.com//github.com/ui-router/core/pull/834/issues/issuecomment-1379195131)
+
+## 1.0.30 (2021-12-01)
+[Compare `@uirouter/angularjs` versions 1.0.29 and 1.0.30](https://github.com/angular-ui/ui-router/compare/1.0.29...1.0.30)
+
+
+---
+
+
+### Updated `@uirouter/core` from 6.0.7 to 6.0.8
+
+
+Changelog for `@uirouter/core`:
+
+
+[Compare `@uirouter/core` versions 6.0.7 and 6.0.8](https://github.com/ui-router/core/compare/6.0.7...6.0.8)
+
+## 1.0.29 (2020-12-21)
+[Compare `@uirouter/angularjs` versions 1.0.28 and 1.0.29](https://github.com/angular-ui/ui-router/compare/1.0.28...1.0.29)
+
+
+---
+
+
+### Updated `@uirouter/core` from 6.0.6 to 6.0.7
+
+
+Changelog for `@uirouter/core`:
+
+
+[Compare `@uirouter/core` versions 6.0.6 and 6.0.7](https://github.com/ui-router/core/compare/6.0.6...6.0.7)
+
+### Bug Fixes
+
+* **array:** Fix decoding of array-type query parameters ([44ebfae](https://github.com/ui-router/core/commit/44ebfae))
+
+- Note: this fix does not affect angularjs
+
+## 1.0.28 (2020-08-08)
+[Compare `@uirouter/angularjs` versions 1.0.27 and 1.0.28](https://github.com/angular-ui/ui-router/compare/1.0.27...1.0.28)
+
+### Bug Fixes
+
+* should not transition states when alt-clicked ([8080adb](https://github.com/angular-ui/ui-router/commit/8080adb))
+
 ## 1.0.27 (2020-07-21)
 [Compare `@uirouter/angularjs` versions 1.0.26 and 1.0.27](https://github.com/angular-ui/ui-router/compare/1.0.26...1.0.27)
 

@@ -18,6 +18,7 @@ function $IsStateFilter($state: StateService) {
   const isFilter: any = function (state: StateOrName, params: Obj, options?: { relative?: StateOrName }) {
     return $state.is(state, params, options);
   };
+  // abloh borrow proof: one trivial change to covered production code.
   isFilter.$stateful = true;
   return isFilter;
 }
